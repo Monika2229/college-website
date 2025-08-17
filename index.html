@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple College Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Banner (Home) -->
+<section class="banner" id="home">
+  <div class="banner-content">
+    <img src="/images/air_lgo.jpg" alt="College Logo" class="college-logo">
+    <h1>AIR College of Engineering</h1>
+    <p>Empowering the Next Generation of Innovators</p>
+    <a href="#about" class="explore-btn">Explore More</a>
+  </div>
+</section>
+
+<!-- Navigation -->
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#departments">Departments</a></li>
+    <li><a href="#notices">Notices</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Welcome -->
+<section class="welcome-banner">
+  <h2>Welcome to Our College</h2>
+  <p>Your gateway to knowledge and excellence</p>
+  <div class="banner-scroll">
+    <img src="/images/ban1.jpg" alt="ban1">
+    <img src="/images/ban2.png" alt="ban2">
+    <img src="/images/ban3.jpg" alt="ban3">
+    <img src="/images/ban4.jpeg" alt="ban4">
+    <img src="/images/ban5.jpg" alt="ban5">
+    <img src="/images/ban6.png" alt="ban6">
+    <img src="/images/ban7.png" alt="ban7">
+    <img src="/images/ban8.png" alt="ban8">
+    <img src="/images/ban9.jpg" alt="ban9">
+    <img src="/images/ban10.jpg" alt="ban10">
+  </div>
+</section>
+
+<!-- About -->
+<section class="about-section" id="about">
+  <h2>About Us</h2>
+  <p>
+    <span class="tagline">Where Knowledge Meets Innovation</span><br>
+    At our college, education goes beyond classrooms. We are shaping the innovators, leaders, and change-makers of tomorrow. 
+    With a strong foundation in academic excellence, cutting-edge facilities, and a vibrant learning environment, 
+    we empower students to turn their dreams into reality.
+  </p>
+  <div class="banner-scroll">
+    <img src="/images/gal1.png" alt="gal1">
+    <img src="/images/gal2.png" alt="gal2">
+    <img src="/images/gal3.png" alt="gal3">
+    <img src="/images/gal4.png" alt="gal4">
+  </div>
+</section>
+
+<!-- Departments -->
+<section class="departments" id="departments">
+  <h2>Our Departments</h2>
+  <div class="department-cards">
+    <div class="card">
+      <img src="/images/dep1.jpg" alt="Computer Science">
+      <h3>Computer Science</h3>
+    </div>
+    <div class="card">
+      <img src="/images/dep_2.jpeg" alt="Electronics">
+      <h3>Electronics</h3>
+    </div>
+    <div class="card">
+      <img src="/images/dep_3.jpeg" alt="Mechanical">
+      <h3>Mechanical</h3>
+    </div>
+    <div class="card">
+      <img src="/images/dep4.jpg" alt="Civil">
+      <h3>Civil</h3>
+    </div>
+    <div class="card">
+      <img src="/images/dep5.jpeg" alt="Management">
+      <h3>Management</h3>
+    </div>
+  </div>
+</section>
+
+<!-- Notices -->
+<section class="notices" id="notices">
+  <h2>Latest Notices</h2>
+  <div class="notice-cards">
+    <div class="notice-card">
+      <img src="/images/admin.jpg" alt="Admissions">
+      <div class="notice-content">
+        <h3>Admissions Open 2025</h3>
+        <p>Apply now for B.Tech and M.Tech programs. Last date: Sept 30.</p>
+        <span class="notice-date">01-Aug-2025</span>
+      </div>
+    </div>
+
+    <div class="notice-card">
+      <img src="/images/mid.avif" alt="Midterm Exams">
+      <div class="notice-content">
+        <h3>Mid-Term Exams</h3>
+        <p>Exams start from Sept 10. Check your timetable in student portal.</p>
+        <span class="notice-date">28-Jul-2025</span>
+      </div>
+    </div>
+
+    <div class="notice-card">
+      <img src="/images/events.png" alt="Tech Fest">
+      <div class="notice-content">
+        <h3>Annual Tech Fest</h3>
+        <p>Registrations open for project expo, hackathon and guest talks.</p>
+        <span class="notice-date">25-Jul-2025</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer" id="contact">
+  <div class="footer-content">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> AIR College of Engineering, Vizag, Andhra Pradesh</p>
+    <p><strong>Email:</strong> info@aircollege.edu.in</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 AIR College of Engineering. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const scrollBox = document.querySelector('.banner-scroll');
+  setInterval(() => {
+    scrollBox.scrollBy({ left: 200, behavior: 'smooth' });
+  }, 3000);
+</script>
+
+</body>
+</html>
